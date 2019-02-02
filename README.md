@@ -2,7 +2,30 @@
 
 This is a simple CLI to run some tasks such as upload, list all assets, and search assets.
 
-How to use:
+<h1>Installation</h1>
+ Pre-requisite:
+ 1) node installed
+ 2) npm installed
+ 
+Steps:
+ 1) Download (or clone) this repo
+ 2) open the resulting directory 
+ 3) Create a new file .env inside the directory and specify the Cloudinary host, api key, and secret (you'll get by opening account:<br>
+ CLOUD_NAME=[cloud_name]
+ API_KEY=[api_key]
+ SECRET=[secret]
+  
+ 4) cd into the directory (eg <pre>$cd senolab-cloudinary-cli</pre>) 
+ 5) run<br>
+ <pre>$npm install</pre>
+ <br>
+ 6) Run the below to check it works
+ <pre>$node cloudinary</pre>
+ <br>
+ 7) Enjoy
+
+<h2>How to use:</h2>
+
 <pre>
 $node cloudinary [action] [options#1] [options#2]
 </pre>
@@ -25,19 +48,4 @@ sample command:
 <pre>....coming soon....</pre>
 <br>
 
- <h2>Installation</h2>
- Pre-requisite:
- 1) node installed
- 2) npm installed
  
-Steps:
- 1) Download (or clone) this repo
- 2) open the resulting directory 
- 3) cd into the directory (eg <pre>$cd senolab-cloudinary-cli</pre>) 
- 4) run<br>
- <pre>$npm install</pre>
- <br>
- 5) Run the below to check it works
- <pre>$node cloudinary</pre>
- <br>
- 6) Enjoy
