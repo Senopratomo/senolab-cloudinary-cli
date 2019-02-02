@@ -1,6 +1,6 @@
 <h1>SenoLab Cloudinary CLI</h1>
 
-This is a simple CLI to run some tasks such as upload, list all assets, and search assets.
+This is a simple CLI to call Cloudinary API for certain task such as upload, list all assets, and search assets.
 
 <h1>Installation</h1>
  Pre-requisite:<br>
