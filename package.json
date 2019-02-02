@@ -1,0 +1,23 @@
+{
+  "name": "uploader",
+  "version": "1.0.0",
+  "description": "Simple nodejs CLI to upload, list, and search images in Cloudinary",
+  "main": "cloudinary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cloudinary": "^1.3.0",
+    "dotenv": "1.x"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  },
+  "keywords": [
+    "cloudinary",
+    "upload",
+    "image"
+  ],
+  "author": "Ernest Senopratomo",
+  "license": "ISC"
+}
